@@ -1,0 +1,3 @@
+/* Bonk7 login page */
+.page-card-head img, .login-content .app-logo { content: url("/assets/bonk7/images/bonk7-logo.svg"); max-height: 80px; width: auto; }
+.btn-primary { background-color: #C75B12 !important; border-color: #C75B12 !important; }

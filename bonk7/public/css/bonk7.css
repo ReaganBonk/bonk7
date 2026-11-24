@@ -1,0 +1,24 @@
+/* Bonk7 brand theme for the ERPNext desk */
+:root {
+  --bonk-brown: #512B1B; --bonk-rust: #A33F1F; --bonk-orange: #C75B12;
+  --bonk-sand: #D2C295; --bonk-stone: #DAD7CB; --bonk-cream: #F6F4EE;
+}
+/* Primary buttons and links */
+.btn-primary, .btn-primary:hover, .btn-primary:focus { background-color: var(--bonk-orange) !important; border-color: var(--bonk-orange) !important; color: #fff !important; }
+a.text-primary, .text-primary, .link-btn { color: var(--bonk-orange) !important; }
+/* Product tables: readable headings */
+html body .form-grid .grid-heading-row, html body .form-grid .grid-heading-row .grid-row, html body .form-grid .grid-heading-row .data-row { background: #EFE9DD !important; }
+html body .form-grid .grid-heading-row, html body .form-grid .grid-heading-row * { color: var(--bonk-brown) !important; opacity: 1 !important; font-weight: 600 !important; }
+html body .form-grid .grid-heading-row { border-bottom: 2px solid var(--bonk-orange) !important; }
+/* Report and list headings */
+.dt-header .dt-cell__content, .list-row-head { color: var(--bonk-brown) !important; font-weight: 600; }
+/* Active sidebar item */
+.sidebar-item-container .selected, .standard-sidebar-item.selected { background: #EFE9DD !important; }
+.sidebar-item-container .selected *, .standard-sidebar-item.selected * { color: var(--bonk-brown) !important; }
+/* Hide Assign / Tags / Share / Like everywhere */
+.form-assignments, .form-shared, .form-tags, .liked-by, .like-action, .list-row-like, .followed-by-section, .form-follow { display: none !important; }
+/* Use the full screen width */
+.page-container .container, .page-body.container, .layout-main-section-wrapper { max-width: 100% !important; }
+.form-layout .form-section .section-body, .form-layout .form-section .section-head, .form-layout .form-section .section-footer { max-width: none !important; }
+/* Bonk7 logo image */
+img.bonk7-logo { border-radius: 8px; }
